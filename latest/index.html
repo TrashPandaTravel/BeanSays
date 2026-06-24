@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow,noarchive">
+  <title>Bean Says — Encrypted Report Test</title>
+  <style>
+    :root { color-scheme: dark; --bg:#071426; --panel:#0d213b; --text:#e8f1ff; --muted:#9eb4d0; --accent:#f6b44b; --danger:#ff6b6b; --ok:#7ee787; --border:rgba(255,255,255,.12); }
+    * { box-sizing: border-box; }
+    body { margin:0; min-height:100vh; font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; background:linear-gradient(145deg,#06101f,var(--bg)); color:var(--text); display:grid; place-items:center; padding:2rem; }
+    main { width:min(860px,100%); background:rgba(13,33,59,.9); border:1px solid var(--border); border-radius:24px; box-shadow:0 30px 90px rgba(0,0,0,.45); overflow:hidden; }
+    header, section { padding:2rem; }
+    header { border-bottom:1px solid var(--border); background:linear-gradient(135deg,rgba(246,180,75,.14),rgba(255,255,255,.03)); }
+    h1 { margin:0 0 .6rem; font-size:clamp(1.7rem,3vw,2.4rem); }
+    p { color:var(--muted); line-height:1.6; }
+    label { display:block; font-weight:800; margin-bottom:.5rem; }
+    .controls { display:flex; gap:.75rem; flex-wrap:wrap; }
+    input { flex:1 1 280px; padding:.9rem 1rem; border-radius:12px; border:1px solid var(--border); background:#08182b; color:var(--text); font-size:1rem; }
+    button { border:0; border-radius:12px; padding:.95rem 1.1rem; background:var(--accent); color:#1d1200; font-weight:900; cursor:pointer; }
+    button:disabled { opacity:.65; cursor:wait; }
+    #status { margin-top:1rem; min-height:1.6rem; }
+    .error { color:var(--danger); } .success { color:var(--ok); }
+    .report { margin-top:1.5rem; padding:1.5rem; border:1px solid var(--border); border-radius:18px; background:rgba(255,255,255,.04); }
+    .eyebrow { color:var(--accent); text-transform:uppercase; letter-spacing:.16em; font-size:.78rem; font-weight:900; }
+    .grid { display:grid; gap:.8rem; margin:1rem 0; }
+    article { display:flex; justify-content:space-between; gap:1rem; padding:1rem; border-radius:14px; background:#102a4b; border:1px solid var(--border); }
+    article span,.small { color:var(--muted); }
+    code { color:var(--accent); }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Bean Says</h1>
+      <p>Encrypted Trash Panda Travel mockup. Public page, encrypted content, local browser decryption.</p>
+    </header>
+    <section>
+      <label for="password">Report password</label>
+      <div class="controls">
+        <input id="password" type="password" autocomplete="current-password" placeholder="Enter test password">
+        <button id="unlock" type="button">Unlock report</button>
+      </div>
+      <p id="status" class="small">Nothing is sent to a server. Decryption uses your browser’s Web Crypto API.</p>
+      <div id="report"></div>
+      <p class="small">Root fallback page generated for GitHub Pages source testing.</p>
+    </section>
+  </main>
+<script>
+const encryptedPayload={"kdf":"PBKDF2","hash":"SHA-256","iterations":310000,"cipher":"AES-GCM","salt":"B4cGHikrHDypTO3MaqKDFw==","iv":"mYSXWjA4bh2bpojD","ciphertext":"Un6MLh1/OKm0enOGFKwtNray9EgSHX88FlWeLo2pOqP+FmIA1ykZ0QJMSjDJKEk760XPQGxqxc0Gy8UqhTInB+r/g7G5ePX4GvyynSIXTRLDND+FwbAwqCHhKHk9Y1YI7Orub/QPmMjwyRA8uC5Fb67HI2To3UjuJWzEE9nzh7bjMgi3jvW6gE5jEpmtgdKA2QjZi4wojk9AZnWHaVM7cyai2pDjWfbLCyarAnpAiq/IqB//cYz57YrMJRlUzBeaIv/OKdL5Gvx8IXFSf1Pef84nLpzRYYNHy5aYO3KUShj93+YvtMIqqk+VFvVs3zLlzjsc3rjR3mahlIxD/BUNmtRfDTUi4Kcb/bLoaoFta/AUPvf4iGvFeY3QkR1klUaBZj0vN6VWFuY+lL62xkiL8reM6wImvOV0dzw1qi/ArlQXEXTudDHVYi/Iv7JJ/W7bE1GQCbqiPwP+ME7+JZ8zJZKVUKoqHXN0wXHf6wP6lzfHp8bfTmksRheCqgdvFHgirCb2ip3PxPV8nZAENrBUuY3okAzD1ivPeIRNh/SKjKHCbtZnkoVGnYj+n5Qkg1Bf3AzXAmE/sIt4j8gQ28XLLAIONuorYDHfdWN5GqZ/a7N/OhLcQ42kl/6jYnuIpWRzsubSwtlAD5ygKm2DStLjWHqPD4uuJK62hgSQ1MXJoa/sUhBKhE0qh0TKSQ/t8vyJoS/p6uUcSTx4hUUszYQ691IRhCsM41qpxrudmn3EJHmfsgn7c5dOiFmZDUsGKK1vZ8rKiYaJy0hg5KKy9xKcHZ7oXFYJ7IPnfOCXeh7udlSuBzOqYAY3ImhIYv1yghZpRA997n4RSBB3PXDtG/iJQeq3DIVFCORk+G/r1zxi5g7tQcr46m1KeZC4eKrirLswwAseSHkjWQr+VvaCt8Uk5CeIMlgIYhNuxCF4fogMH9TNzxp9dS7HSnYgwGIrU6aqVJ81C7gVueP7gje9r5VtGhwdqHRXVpL6pNgkiQytLTCuLhPeFnZYeXkWguUyvofYhrjVqIHdL2IAphhzU+WANF0IDA5N1H1uHAmecuZqGKIQQbn9xCsuDvH3vcwprVNxz3cA/hHSMUqjR0pES63QjsqqrHfpAVj0Z0plucEhFMrE3RmOJP0zYloY06Z+0lOLsZ7xi0y4lWXBGztmw0YQ7f6V4nvCfk0y2p2yIM9YXEXh3EOOnZxCRzy7uNHzBpQ9+ecXIkjRTLAhO6jmIT6XY4bRxSzqUXIdqsLJdKcKt105Q3mhy/2dXjyM/hZMM/bm/962WHET0vV/w44r6L4rYxYYBNZLonuJDf4DfjiuSBcUHFnWkzqWCAe8kjsCfXm3K7XfLsy8j3Ot4hmM"};
+function b64ToBytes(v){const b=atob(v);const a=new Uint8Array(b.length);for(let i=0;i<b.length;i++)a[i]=b.charCodeAt(i);return a;}
+async function deriveKey(p,s,i){const pk=await crypto.subtle.importKey("raw",new TextEncoder().encode(p),"PBKDF2",false,["deriveKey"]);return crypto.subtle.deriveKey({name:"PBKDF2",salt:s,iterations:i,hash:"SHA-256"},pk,{name:"AES-GCM",length:256},false,["decrypt"]);}
+async function unlockReport(){const button=document.getElementById("unlock"),password=document.getElementById("password").value,status=document.getElementById("status"),report=document.getElementById("report");status.className="small";report.innerHTML="";if(!password){status.textContent="Enter the report password first.";status.className="error";return;}button.disabled=true;status.textContent="Decrypting locally...";try{const key=await deriveKey(password,b64ToBytes(encryptedPayload.salt),encryptedPayload.iterations);const decrypted=await crypto.subtle.decrypt({name:"AES-GCM",iv:b64ToBytes(encryptedPayload.iv)},key,b64ToBytes(encryptedPayload.ciphertext));report.innerHTML=new TextDecoder().decode(decrypted);status.textContent="Unlocked. Decryption succeeded locally in this browser.";status.className="success";}catch(e){status.textContent="Could not decrypt. The password is wrong or the encrypted payload was changed.";status.className="error";}finally{button.disabled=false;}}
+document.getElementById("unlock").addEventListener("click",unlockReport);document.getElementById("password").addEventListener("keydown",e=>{if(e.key==="Enter")unlockReport();});
+</script>
+</body>
+</html>
