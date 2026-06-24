@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" role="img" aria-labelledby="title desc">
+  <title id="title">Bean mascot</title>
+  <desc id="desc">Bean the raccoon wearing sunglasses and a Bell-LaPadula shirt.</desc>
+  <defs>
+    <filter id="shadow" x="-25%" y="-25%" width="150%" height="160%">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#000" flood-opacity="0.38"/>
+    </filter>
+  </defs>
+  <g transform="translate(24 10)" filter="url(#shadow)">
+    <path d="M70 190C12 178 8 112 55 86C104 58 158 86 168 129C178 172 130 202 70 190Z" fill="#30343b" stroke="#111821" stroke-width="5"/>
+    <path d="M38 98C70 82 105 88 132 111" fill="none" stroke="#b9b9b2" stroke-width="19" stroke-linecap="round" opacity="0.9"/>
+    <path d="M36 143C74 125 124 137 151 166" fill="none" stroke="#b9b9b2" stroke-width="19" stroke-linecap="round" opacity="0.9"/>
+
+    <path d="M123 170C83 170 55 198 52 260H222C219 198 190 170 150 170Z" fill="#15181d" stroke="#07090d" stroke-width="5"/>
+    <text x="77" y="224" transform="rotate(-6 138 220)" font-family="Arial Black,Impact,sans-serif" font-size="22" fill="#f9fbff">Bell-LaPadula</text>
+    <path d="M139 231L126 259H145L134 288L167 242H149L161 231Z" fill="#f7fbff"/>
+
+    <path d="M59 221C92 239 124 247 167 246" fill="none" stroke="#767b83" stroke-width="25" stroke-linecap="round"/>
+    <path d="M219 218C187 239 153 247 108 245" fill="none" stroke="#666b73" stroke-width="25" stroke-linecap="round"/>
+    <path d="M64 220C94 236 127 244 167 244" fill="none" stroke="#272d36" stroke-width="10" stroke-linecap="round" opacity="0.55"/>
+    <path d="M214 218C186 235 154 243 111 243" fill="none" stroke="#22262d" stroke-width="10" stroke-linecap="round" opacity="0.55"/>
+
+    <path d="M79 75L44 28L103 43Z" fill="#cfcfc8" stroke="#171b20" stroke-width="5"/>
+    <path d="M184 75L220 28L160 43Z" fill="#cfcfc8" stroke="#171b20" stroke-width="5"/>
+    <path d="M78 60L62 37L90 48Z" fill="#f1eee5" opacity="0.92"/>
+    <path d="M185 60L202 37L174 48Z" fill="#f1eee5" opacity="0.92"/>
+
+    <ellipse cx="132" cy="106" rx="84" ry="72" fill="#b9b9b2" stroke="#15191f" stroke-width="5"/>
+    <path d="M51 98C74 64 106 49 132 51C105 85 94 120 76 145C61 135 51 119 51 98Z" fill="#31343a"/>
+    <path d="M213 98C190 64 158 49 132 51C160 85 171 120 188 145C203 135 213 119 213 98Z" fill="#31343a"/>
+    <path d="M94 135C105 163 160 163 171 135C157 149 108 149 94 135Z" fill="#f0eee8" opacity="0.95"/>
+    <ellipse cx="132" cy="129" rx="39" ry="28" fill="#f0eee8"/>
+    <path d="M119 125C126 118 138 118 145 125C141 133 123 133 119 125Z" fill="#121418"/>
+    <path d="M116 144C126 154 140 154 150 144" fill="none" stroke="#1a1d22" stroke-width="4" stroke-linecap="round"/>
+
+    <path d="M65 98C77 80 111 82 123 93C120 118 103 134 77 128C62 124 57 110 65 98Z" fill="#05070a" stroke="#171b20" stroke-width="5"/>
+    <path d="M141 93C153 82 187 80 199 98C207 110 202 124 187 128C161 134 144 118 141 93Z" fill="#05070a" stroke="#171b20" stroke-width="5"/>
+    <path d="M121 98C127 94 137 94 143 98" fill="none" stroke="#171b20" stroke-width="6"/>
+    <path d="M81 92L103 88" stroke="#fff" stroke-width="7" stroke-linecap="round" opacity="0.7"/>
+    <path d="M157 92L179 88" stroke="#fff" stroke-width="7" stroke-linecap="round" opacity="0.7"/>
+  </g>
+</svg>
