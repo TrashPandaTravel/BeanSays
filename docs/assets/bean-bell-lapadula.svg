@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Bean Says logo</title>
+  <desc id="desc">Bean the raccoon wearing sunglasses and a Bell-LaPadula rock shirt.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#263445"/>
+      <stop offset="0.55" stop-color="#13263f"/>
+      <stop offset="1" stop-color="#071426"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="360" rx="26" fill="url(#bg)"/>
+  <path d="M0 356H1200" stroke="#344d6d" stroke-width="2" opacity="0.75"/>
+
+  <g filter="url(#shadow)">
+    <text x="48" y="92" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="56" font-weight="900" fill="#f7fbff" letter-spacing="-2">Bean Says</text>
+  </g>
+
+  <g transform="translate(72 105)" filter="url(#shadow)">
+    <!-- tail -->
+    <path d="M87 170C24 159 18 93 67 69C113 46 164 71 174 112C184 154 143 184 87 170Z" fill="#30343b" stroke="#121822" stroke-width="5"/>
+    <path d="M53 80C83 69 110 76 136 99" fill="none" stroke="#b8b8b8" stroke-width="20" stroke-linecap="round" opacity="0.9"/>
+    <path d="M47 126C82 109 127 119 155 149" fill="none" stroke="#b8b8b8" stroke-width="20" stroke-linecap="round" opacity="0.9"/>
+
+    <!-- body/shirt -->
+    <path d="M129 160C90 160 62 188 59 240H224C221 188 192 160 153 160Z" fill="#15181d" stroke="#07090d" stroke-width="5"/>
+    <text x="82" y="214" transform="rotate(-6 140 210)" font-family="Arial Black,Impact,sans-serif" font-size="21" fill="#f9fbff">Bell-LaPadula</text>
+    <path d="M140 219L128 248H146L136 276L167 232H149L160 219Z" fill="#f7fbff"/>
+
+    <!-- crossed arms -->
+    <path d="M67 208C97 225 126 233 166 232" fill="none" stroke="#777b83" stroke-width="25" stroke-linecap="round"/>
+    <path d="M218 205C188 225 157 233 113 231" fill="none" stroke="#676b73" stroke-width="25" stroke-linecap="round"/>
+    <path d="M72 207C100 222 130 230 166 230" fill="none" stroke="#2b2f36" stroke-width="10" stroke-linecap="round" opacity="0.55"/>
+    <path d="M214 205C187 221 156 229 116 229" fill="none" stroke="#22262d" stroke-width="10" stroke-linecap="round" opacity="0.55"/>
+
+    <!-- ears -->
+    <path d="M80 66L46 23L102 37Z" fill="#cfcfc8" stroke="#171b20" stroke-width="5"/>
+    <path d="M183 66L217 23L161 37Z" fill="#cfcfc8" stroke="#171b20" stroke-width="5"/>
+    <path d="M78 52L62 32L88 41Z" fill="#f1eee5" opacity="0.9"/>
+    <path d="M185 52L201 32L175 41Z" fill="#f1eee5" opacity="0.9"/>
+
+    <!-- head -->
+    <ellipse cx="132" cy="95" rx="82" ry="70" fill="#b9b9b2" stroke="#15191f" stroke-width="5"/>
+    <path d="M53 86C75 55 105 40 132 41C105 74 94 109 77 133C62 124 53 108 53 86Z" fill="#31343a"/>
+    <path d="M211 86C189 55 159 40 132 41C159 74 170 109 187 133C202 124 211 108 211 86Z" fill="#31343a"/>
+    <path d="M94 123C104 149 160 149 170 123C156 136 108 136 94 123Z" fill="#f0eee8" opacity="0.95"/>
+    <ellipse cx="132" cy="117" rx="38" ry="27" fill="#f0eee8"/>
+    <path d="M120 113C126 107 138 107 144 113C141 121 123 121 120 113Z" fill="#121418"/>
+    <path d="M116 131C126 141 140 141 150 131" fill="none" stroke="#1a1d22" stroke-width="4" stroke-linecap="round"/>
+
+    <!-- sunglasses -->
+    <path d="M66 86C77 70 111 71 122 82C119 106 103 122 78 117C63 113 58 98 66 86Z" fill="#05070a" stroke="#171b20" stroke-width="5"/>
+    <path d="M142 82C153 71 187 70 198 86C206 98 201 113 186 117C161 122 145 106 142 82Z" fill="#05070a" stroke="#171b20" stroke-width="5"/>
+    <path d="M120 87C126 83 137 83 144 87" fill="none" stroke="#171b20" stroke-width="6"/>
+    <path d="M81 80L102 76" stroke="#ffffff" stroke-width="7" stroke-linecap="round" opacity="0.7"/>
+    <path d="M157 80L178 76" stroke="#ffffff" stroke-width="7" stroke-linecap="round" opacity="0.7"/>
+  </g>
+
+  <g transform="translate(344 138)">
+    <text x="0" y="0" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22" font-weight="800" fill="#f6b44b" letter-spacing="1.5">TRASH PANDA TRAVEL</text>
+    <text x="0" y="44" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="34" font-weight="900" fill="#f7fbff">Morning Fare Report</text>
+    <text x="0" y="83" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" fill="#9eb4d0">Discovery candidates, audit trail, and manual-review signals.</text>
+  </g>
+</svg>
