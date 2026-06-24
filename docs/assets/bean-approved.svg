@@ -1,22 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img">
-  <title>Bean mascot</title>
-  <g>
-    <path d="M17 82c-14-13-10-35 7-43 20-9 39 5 39 25 0 20-25 30-46 18z" fill="#2f3740"/>
-    <path d="M24 45c14-7 29-4 39 8" fill="none" stroke="#c6c8c5" stroke-width="8" stroke-linecap="round"/>
-    <path d="M21 67c17-8 35-4 47 10" fill="none" stroke="#c6c8c5" stroke-width="8" stroke-linecap="round"/>
-    <path d="M36 70c-18 2-29 17-30 45h83c-1-28-13-43-31-45z" fill="#08090d"/>
-    <text x="18" y="94" font-family="Arial Black,Arial,sans-serif" font-size="8" fill="#fff">Bell-LaPadula</text>
-    <path d="M41 30L25 8l27 9z" fill="#c7c9c5" stroke="#111" stroke-width="2"/>
-    <path d="M79 30L95 8l-27 9z" fill="#c7c9c5" stroke="#111" stroke-width="2"/>
-    <ellipse cx="60" cy="45" rx="42" ry="36" fill="#aeb4b6" stroke="#111" stroke-width="2"/>
-    <path d="M20 43c12-19 27-26 40-25-14 17-20 35-29 49-8-5-12-13-11-24z" fill="#2c3239"/>
-    <path d="M100 43c-12-19-27-26-40-25 14 17 20 35 29 49 8-5 12-13 11-24z" fill="#2c3239"/>
-    <ellipse cx="60" cy="60" rx="20" ry="14" fill="#f0eee8"/>
-    <path d="M53 58c4-4 10-4 14 0-3 5-11 5-14 0z" fill="#111"/>
-    <path d="M25 42c7-9 24-8 31-2-2 13-11 21-24 18-8-2-11-10-7-16z" fill="#05070a"/>
-    <path d="M64 40c7-6 24-7 31 2 4 6 1 14-7 16-13 3-22-5-24-18z" fill="#05070a"/>
-    <path d="M55 43c4-3 8-3 12 0" stroke="#111" stroke-width="4" fill="none"/>
-    <path d="M29 83c17 10 36 13 61 11" stroke="#737b82" stroke-width="12" stroke-linecap="round" fill="none"/>
-    <path d="M91 82c-18 12-37 15-63 12" stroke="#5f6870" stroke-width="12" stroke-linecap="round" fill="none"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 220" role="img" aria-labelledby="title desc">
+  <title id="title">Bean mascot</title>
+  <desc id="desc">Bean wearing sunglasses and a Bell-LaPadula shirt in 80s rocker style.</desc>
+  <image href="bean-step1-rocker.webp" x="0" y="0" width="220" height="220" preserveAspectRatio="xMidYMid meet"/>
 </svg>
