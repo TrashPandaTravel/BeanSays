@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="154" height="154" viewBox="0 0 154 154" role="img">
+  <title>Bean mascot</title>
+  <rect width="154" height="154" rx="20" fill="#102a4b"/>
+  <circle cx="77" cy="61" r="43" fill="#aeb4b6" stroke="#111" stroke-width="3"/>
+  <path d="M50 37L29 10l35 11z" fill="#c7c9c5" stroke="#111" stroke-width="3"/>
+  <path d="M104 37l21-27-35 11z" fill="#c7c9c5" stroke="#111" stroke-width="3"/>
+  <path d="M34 59c10-20 26-31 43-30-16 18-24 38-32 54-8-5-12-13-11-24z" fill="#2c3239"/>
+  <path d="M120 59c-10-20-26-31-43-30 16 18 24 38 32 54 8-5 12-13 11-24z" fill="#2c3239"/>
+  <ellipse cx="77" cy="77" rx="23" ry="16" fill="#f0eee8"/>
+  <path d="M69 74c5-5 12-5 17 0-3 6-14 6-17 0z" fill="#111"/>
+  <path d="M38 55c8-11 27-10 35-3-2 15-13 24-28 21-10-2-14-11-7-18z" fill="#05070a"/>
+  <path d="M81 52c8-7 27-8 35 3 7 7 3 16-7 18-15 3-26-6-28-21z" fill="#05070a"/>
+  <path d="M72 56c4-3 8-3 12 0" stroke="#111" stroke-width="5" fill="none"/>
+  <path d="M48 89c-22 3-36 20-37 58h132c-1-38-15-55-37-58z" fill="#08090d"/>
+  <text x="32" y="119" font-family="Arial Black,Arial,sans-serif" font-size="13" fill="#fff">Bell-LaPadula</text>
+  <path d="M34 111c26 14 57 18 91 12" stroke="#737b82" stroke-width="15" stroke-linecap="round" fill="none"/>
+  <path d="M121 110c-27 16-58 20-92 13" stroke="#5f6870" stroke-width="15" stroke-linecap="round" fill="none"/>
+</svg>
