@@ -1,32 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="154" height="154" viewBox="0 0 154 154" role="img" aria-labelledby="title desc">
-  <title id="title">Standard raccoon icon</title>
-  <desc id="desc">A clean raccoon face icon for the Bean Says header.</desc>
-  <defs>
-    <linearGradient id="fur" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0" stop-color="#c8d2df"/>
-      <stop offset="1" stop-color="#7f8fa3"/>
-    </linearGradient>
-    <linearGradient id="mask" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0" stop-color="#2e3a4f"/>
-      <stop offset="1" stop-color="#111827"/>
-    </linearGradient>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="8" stdDeviation="7" flood-color="#000000" flood-opacity="0.28"/>
-    </filter>
-  </defs>
-  <g filter="url(#shadow)">
-    <path d="M29 60 14 24l34 14c8-5 18-8 29-8s21 3 29 8l34-14-15 36c4 8 6 17 6 27 0 34-24 58-54 58S23 121 23 87c0-10 2-19 6-27Z" fill="url(#fur)"/>
-    <path d="M35 45 25 25l21 10c-4 2-8 6-11 10Zm84 0 10-20-21 10c4 2 8 6 11 10Z" fill="#48566b"/>
-    <path d="M30 81c8-22 25-34 47-34s39 12 47 34c-9 17-26 26-47 26S39 98 30 81Z" fill="url(#mask)"/>
-    <path d="M43 87c6-10 16-16 28-16h12c12 0 22 6 28 16-8 9-19 14-34 14s-26-5-34-14Z" fill="#0b1220" opacity=".42"/>
-    <ellipse cx="58" cy="81" rx="11" ry="9" fill="#f8fbff"/>
-    <ellipse cx="96" cy="81" rx="11" ry="9" fill="#f8fbff"/>
-    <circle cx="60" cy="82" r="5" fill="#0d1321"/>
-    <circle cx="94" cy="82" r="5" fill="#0d1321"/>
-    <circle cx="62" cy="80" r="1.8" fill="#ffffff"/>
-    <circle cx="96" cy="80" r="1.8" fill="#ffffff"/>
-    <path d="M67 102c3-4 17-4 20 0-3 7-17 7-20 0Z" fill="#1f2937"/>
-    <path d="M77 110c-7 0-13-3-17-8 4 13 30 13 34 0-4 5-10 8-17 8Z" fill="#f7fafc" opacity=".85"/>
-    <path d="M49 120c8 7 17 11 28 11s20-4 28-11" fill="none" stroke="#3f4d63" stroke-width="6" stroke-linecap="round"/>
-  </g>
+  <title id="title">Raccoon emoji</title>
+  <desc id="desc">Simple raccoon emoji used as the Bean Says mascot.</desc>
+  <text x="50%" y="50%" dominant-baseline="central" text-anchor="middle" font-size="96">🦝</text>
 </svg>
